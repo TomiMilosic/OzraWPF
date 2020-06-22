@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAplikacija.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAplikacija"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="367.091" Width="377.6" Background="AntiqueWhite">
+    <Grid>
+        <TextBox Name="UporabniskoImeTxb" HorizontalAlignment="Left" Height="23" Margin="46,122,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="GesloTxb" HorizontalAlignment="Left" Height="23" Margin="46,186,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Uporabnisko Ime: "  Name="UporabiksoImelabel" HorizontalAlignment="Left" Margin="46,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geslo: " Name="GesloLabel" HorizontalAlignment="Left" Margin="46,150,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" x:Name="IzbiraJezika" SelectionChanged="IzbiraJezika_SelectionChanged" Margin="132,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Jezik" Name="jeziklabel" HorizontalAlignment="Left" Margin="132,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Prijava" HorizontalAlignment="Left" Name="PrijavaBtn" Margin="46,232,0,0" VerticalAlignment="Top" Width="120" Click="PrijavaBtn_Click" />
+        <TextBox x:Name="Uporabnik_UporabniskoImeTxb" HorizontalAlignment="Left" Height="23" Margin="209,122,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Uporabnik_GesloTxb" HorizontalAlignment="Left" Height="23" Margin="209,186,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Uporabnisko Ime: " Name="UporabniskoImelabel2" HorizontalAlignment="Left" Margin="208,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geslo: " HorizontalAlignment="Left" Name="GesloLabelLabel" Margin="208,150,0,0" VerticalAlignment="Top"/>
+        <Button Content="Uporabnik_Prijava" HorizontalAlignment="Left" x:Name="PrijavaBtn_Copy" Margin="208,232,0,0" VerticalAlignment="Top" Width="120" Click="PrijavaBtn_Copy_Click" />
+        <Label Content="Admin: " Name="AdminLabel" HorizontalAlignment="Left" Margin="46,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Uporabnik: " Name="UporabnikiLabel" HorizontalAlignment="Left" Margin="208,74,0,0" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Window>

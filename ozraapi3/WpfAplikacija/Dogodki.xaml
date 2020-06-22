@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfAplikacija.Dogodki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAplikacija"
+        mc:Ignorable="d"
+        Title="Dogodki" Height="346.145" Width="478.836" Background="AntiqueWhite">
+    <Grid>
+        <ListView HorizontalAlignment="Left" Name="SeznamDogodtkov" Height="191" Margin="37,64,0,0" VerticalAlignment="Top" Width="189"  MouseDoubleClick="SeznamDogodtkov_MouseDoubleClick">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox Name="IDdogodkatxb" HorizontalAlignment="Left" Height="23" Margin="262,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Nazivdogodkatxb" HorizontalAlignment="Left" Height="23" Margin="262,122,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Name="casdogodkatxb" Height="23" Margin="262,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Id: " HorizontalAlignment="Left" Margin="262,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Naziv:" HorizontalAlignment="Left" Margin="262,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cas:" HorizontalAlignment="Left" Margin="262,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vsi dogodtki:  " HorizontalAlignment="Left" Margin="37,34,0,0" VerticalAlignment="Top"/>
+        <Button Content="Dodaj" Name="DodajDogodek" HorizontalAlignment="Left" Margin="262,207,0,0" VerticalAlignment="Top" Width="120" Click="DodajDogodek_Click"/>
+        <Button Content="Uredi" Name="UrediDogodekBtn" HorizontalAlignment="Left" Margin="262,244,0,0" VerticalAlignment="Top" Width="120" Click="UrediDogodekBtn_Click"/>
+        <Button Content="Izbrisi" Name="IzbrisiDogodekbtn" HorizontalAlignment="Left" Margin="262,277,0,0" VerticalAlignment="Top" Width="120" Click="IzbrisiDogodekbtn_Click"/>
+
+    </Grid>
+</Window>

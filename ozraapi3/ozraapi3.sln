@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ozraapi3", "ozraapi3\ozraapi3.csproj", "{A0C91DA2-9F46-4F17-AC8F-466086348ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAplikacija", "WpfAplikacija\WpfAplikacija.csproj", "{8EE09F09-A7FB-44DB-A9EF-2640CDA6EE73}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{5E1F96E2-116E-4389-B471-718D68747AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C91DA2-9F46-4F17-AC8F-466086348ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C91DA2-9F46-4F17-AC8F-466086348ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C91DA2-9F46-4F17-AC8F-466086348ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C91DA2-9F46-4F17-AC8F-466086348ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE09F09-A7FB-44DB-A9EF-2640CDA6EE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE09F09-A7FB-44DB-A9EF-2640CDA6EE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE09F09-A7FB-44DB-A9EF-2640CDA6EE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE09F09-A7FB-44DB-A9EF-2640CDA6EE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1F96E2-116E-4389-B471-718D68747AFB}.Debug|Any CPU.ActiveCfg = Debug
+		{5E1F96E2-116E-4389-B471-718D68747AFB}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1C352D0-8D81-4A15-BA2B-D6ACC1402C6A}
+	EndGlobalSection
+EndGlobal
